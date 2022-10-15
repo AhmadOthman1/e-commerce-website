@@ -1,0 +1,11 @@
+div{
+    width: 100%;
+    background-color: #33333a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem;
+}
+div p{
+    color: white;
+}
