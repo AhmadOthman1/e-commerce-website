@@ -1,0 +1,34 @@
+.navBar{
+    display: flex;
+    flex-direction: row;
+    padding: 0.3rem;
+    background-color: white;
+    justify-content: space-around;
+}
+.navLeft .logo{
+    color: #030303;
+}
+.navLeft a{
+    border: none;
+    text-decoration: none;
+}
+.navLeft{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+}
+.navLeft .navItems{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+}
+.navBar .navAvatars{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

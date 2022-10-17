@@ -1,4 +1,4 @@
-div{
+.navTop{
     width: 100%;
     background-color: #33333a;
     display: flex;
@@ -6,6 +6,6 @@ div{
     align-items: center;
     padding: 0.2rem;
 }
-div p{
+.navTop p{
     color: white;
 }

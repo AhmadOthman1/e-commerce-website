@@ -1,0 +1,11 @@
+.menuButton a{
+    color: #030303;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+.menuButton a:hover{
+    color: #FF6008;
+    font-weight: 600;
+    font-size: 16px;
+}

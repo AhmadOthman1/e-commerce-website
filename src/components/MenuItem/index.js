@@ -1,16 +1,17 @@
 import React from 'react'
 import './style.css'
 
-const Header = (
+
+const MenuItem = (
     {
         title
     }
 ) => {
   return (
-    <div className='navTop'>
-        <p>{title}</p>
+    <div className='menuButton'>
+    <a>{title}</a>
     </div>
   )
 }
 
-export default Header;
+export default MenuItem;
