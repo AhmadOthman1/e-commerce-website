@@ -38,9 +38,9 @@ function App() {
       <Header title="Free shipping for orders above USD 150"/>
       
       <Menu logo={logo} Items={menuItems} avatars={avatarIcons}/>
-      <div>
+      <div >
       <SimpleImageSlider
-        width={"100vw"}
+        width={"99vw"}
         height={"100vh"}
         images={imageSlider}
         showBullets={false}
