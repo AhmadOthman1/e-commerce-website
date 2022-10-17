@@ -1,9 +1,8 @@
 import './App.css';
 import Header from "./components/Header";
 import Menu from "./components/Menu";
-import { Slide } from 'react-slideshow-image';
+import SimpleImageSlider from "react-simple-image-slider";
 
-import 'react-slideshow-image/dist/styles.css'
 function App() {
   const logo ="matter";
   const menuItems =[
@@ -28,14 +27,10 @@ function App() {
   ]
   const imageSlider =[
     {
-      imageSrc:"s1.jpg",
-      title:"Perfume Tips Tricks",
-      buttonTitle:"show Now"
+      url:"images/s1.jpg"
     },
     {
-      imageSrc:"s2.jpg",
-      title:"Perfume Tips Tricks",
-      buttonTitle:"show Now"
+      url:"images/s2.jpg"
     }
   ]
   return (
@@ -44,18 +39,16 @@ function App() {
       
       <Menu logo={logo} Items={menuItems} avatars={avatarIcons}/>
       <div>
-      <Slide>
-      {imageSlider?.map(image => {
-              return (
-                <div className="each-slide-effect">
-                  <div style={{ 'backgroundImage': `url(${image.imageSrc})` }}>
-                      <span>Slide 1</span>
-                  </div>
-                </div>
-              )
-            })}  
-        </Slide>
-        </div>
+      <SimpleImageSlider
+        width={"100vw"}
+        height={"100vh"}
+        images={imageSlider}
+        showBullets={false}
+        showNavs={true}
+        autoPlay={true}
+        loop={true}
+      />
+    </div>
     </>
   );
 }
