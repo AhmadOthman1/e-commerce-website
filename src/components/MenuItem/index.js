@@ -9,7 +9,7 @@ const MenuItem = (
 ) => {
   return (
     <div className='menuButton'>
-    <a>{title}</a>
+    <a href={'/'+title}>{title.toUpperCase()}</a>
     </div>
   )
 }

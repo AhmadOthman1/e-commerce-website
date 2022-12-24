@@ -1,0 +1,29 @@
+.Content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 500px;
+    background: url("/public/images/img1.png") no-repeat;
+    background-position: center;
+    background-size:cover;
+    gap: 2px;
+}
+.Content h1{
+    color: white;
+    font-size: 3em;
+    width: 900px;
+    font-weight: 500;
+}
+.Content a{
+    text-decoration: none;
+    border-bottom:1px solid white;
+    padding-bottom:8px;
+    margin: 20px 380px 0 0;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+

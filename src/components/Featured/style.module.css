@@ -1,0 +1,14 @@
+.Featured{
+    background-color:#FCFCFC;
+    padding: 0px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    justify-content:center;
+    margin-bottom:60px;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+}

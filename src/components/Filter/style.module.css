@@ -1,0 +1,48 @@
+.filterWrapper{
+    /* background-color:red; */
+    position: relative;
+    width:250px;
+    min-width: 250px;
+}
+.listOfFilters{
+    padding-top:20px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.filterWrapper > div:first-child{
+    margin-bottom:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filterWrapper > div > button{
+    border:none;
+    background-color: transparent;
+    color:#FF6008;
+    font-weight:bold;
+}
+.filterWrapper div > button:hover{
+    cursor:pointer;
+}
+
+.mainWrapper{
+    padding: 0 150px;
+    margin-top:30px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media (max-width:700px){
+    .mainWrapper{
+        flex-direction: column;
+        align-items: center;
+        padding:0;
+    }
+    .filterWrapper{
+        margin-bottom:30px;
+    }
+    
+}

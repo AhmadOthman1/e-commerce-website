@@ -14,10 +14,10 @@ const Menu = (
   return (
     <div className='navBar'>
       <div className='navLeft'>
-        <a href='#'><h1 className='logo'>{logo?logo : "Logo"}</h1></a>
+        <a href='/'><h1 className='logo'>{logo?logo : "Logo"}</h1></a>
         <div className='navItems'>
           {Items?.map(title => {
-              return <MenuItem title={title.toUpperCase()}/>
+              return <MenuItem title={title}/>
             })}
         </div>
       </div>
